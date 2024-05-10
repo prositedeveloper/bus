@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="author" content="prositedeveloper">
+    <link rel="stylesheet" href="css/register.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="top">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar__wrap">
+                        <div class="hamb">
+                            <div class="hamb__field" id="hamb">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
+                        </div>   
+                        <a href="index.html" class="logo" id="logo">BW</a> 
+                        <ul class="menu" id="menu">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="flight.html">Список рейсов</a></li>
+                            <li><a href="stock.html">Акции</a></li>
+                            <li><a href="booking.html">Бронирование</a></li>
+                            <li><a href="login.html">Вход</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+            <div class="popup" id="popup"></div>
+        
+            
+        
+            <div class="background">
+                <div class="register">
+                    <form action="#">
+                        <label style="color: #fff; font-size: 20px;">ФИО</label>
+                        <input type="text" placeholder="Введите ФИО">
+                        <label style="color: #fff; font-size: 20px;">Дата рождения</label>
+                        <input type="date">
+                        <label style="color: #fff; font-size: 20px;">Логин</label>
+                        <input type="tel" placeholder="Введите логин">
+                        <label style="color: #fff; font-size: 20px;">E-mail</label>
+                        <input type="email" placeholder="Введите e-mail">
+                        <label style="color: #fff; font-size: 20px;">Пароль</label>
+                        <input type="password" placeholder="Введите пароль">
+                        <label style="color: #fff; font-size: 20px;">Подтверждения пароля</label>
+                        <input type="password" placeholder="Подтвердите пароль">
+                        <p>
+                            У вас уже есть аккаунт? - <a class="login" href="login.html">авторизуйтесь</a>!
+                        </p>
+                        <a href="login.html" class="register__btn">Зарегистрироваться</a>
+                    </form>
+                </div>
+            </div> <!-- ./background -->
+        </div>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        BW
+                    </div>
+                    <div class="footer__data">
+                        Все права защищены
+                    </div>
+                    <div class="footer_author">
+                        Copyright 2024
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
